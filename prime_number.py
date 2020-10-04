@@ -9,5 +9,5 @@ def _number(num):
     return 0  # print(f'{num} - не простое число')
 
 
-prime_num = [x for x in range(1, 10**4) if _number(x) == 1]
-print(prime_num)
+prime_num = [x for x in range(1, 10) if _number(x) == 1]
+# print(prime_num)
